@@ -1,7 +1,7 @@
 function Course() {
 return(
     <div>
-        <h2>Course List</h2>
+        <h2 style={{ color: 'green' }}>Course List</h2>
        <ul>
         <li>MERN Stack</li>
         <li>Python</li>
