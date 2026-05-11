@@ -1,6 +1,6 @@
 function CourseBS() {
   return (
-    <div className="p-4">
+    <div className="p-4 container col md-4">
       <h2 style={{ color: "green" }}>Course List</h2>
       <ul className="list-group">
         <li className="list-group-item active">MERN Stack</li>
