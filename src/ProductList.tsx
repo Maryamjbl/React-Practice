@@ -31,8 +31,5 @@ function ProductList() {
       price: 499.99
     }
   ];
-  return (
-    
-  );
 }
 export default ProductList;
