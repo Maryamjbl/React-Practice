@@ -1,9 +1,9 @@
 function Course() {
 return(
     <div>
-        <h2 style={{ color: 'green' }}>Course List</h2>
+        <h2 style={{ color: 'green' }}>Item List</h2>
        <ul>
-        <li>MERN Stack</li>
+        <li></li>
         <li>Python</li>
         <li>Java</li>
         <li>Data Science</li>
