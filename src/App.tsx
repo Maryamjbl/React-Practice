@@ -1,6 +1,8 @@
 // import CourseBS from "./CourseBS";
 // import CourseList from "./CourseList";
-import Counter from "./Counter";
+// import Counter from "./Counter";
+
+import StudentForm from "./StudentForm";
 // import CourseCard from "./CourseCard";
 // import ProductObject from "./ProductObject";
 // import ProductList from "./ProductList";
@@ -11,7 +13,7 @@ function App(){
 
   return (
     <div className="App">
-      <h1  className="m-3 text-center text-primary"> Counter </h1>
+      <h1  className="m-3 text-center text-primary"> Form </h1>
       {/* <CourseBS></CourseBS> */}
       {/* <CourseList></CourseList> */}
       {/* <CourseObject></CourseObject>
@@ -19,7 +21,8 @@ function App(){
       {/* <ProductList></ProductList> */}
       {/* <ProductObject></ProductObject> */}
       {/* <CourseCard></CourseCard> */}
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+      <StudentForm></StudentForm>
 
     </div>
   );
