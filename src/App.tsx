@@ -8,12 +8,14 @@
 // import CourseObject from "./CourseObject";
 // import UserInfo from "./UserInfo";
 
-import ProductCard from "./ProductCard";
+import ProductForm from "./ProductForm";
+
+// import ProductCard from "./ProductCard";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="m-3 text-center text-primary"> Product Cards </h1>
+      <h1 className="m-3 text-center text-primary"> Product Form </h1>
       {/* <CourseBS></CourseBS> */}
       {/* <CourseList></CourseList> */}
       {/* <CourseObject></CourseObject>
@@ -23,7 +25,7 @@ function App() {
       {/* <CourseCard></CourseCard> */}
       {/* <Counter></Counter> */}
       {/* <StudentForm></StudentForm> */}
-      <ProductCard
+      {/* <ProductCard
         productName="Wireless Headphones"
         price={99.99}
         features={["Full-size drivers", "Bluetooth connectivity", "Noise cancellation"]}
@@ -32,7 +34,8 @@ function App() {
         productName="Smartwatch"
         price={199.99}
         features={["Heart rate monitoring", "Sleep tracking", "Water-resistant"]}
-      />
+      /> */}
+      <ProductForm></ProductForm>
     </div>
   );
 }
