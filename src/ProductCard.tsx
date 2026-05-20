@@ -6,7 +6,7 @@ type ProductCardProps = {
 
 function ProductCard(props: ProductCardProps) {
   return (
-    <div className="container mx-auto border border-primary p-4 rounded mb-4">
+    <div className="container mx-auto border border-primary p-4 rounded mb-4 bg-light">
       <h2 className="text-warning">Product Details</h2>
       <h3 className="text-info">Name - {props.productName}</h3>
       <h4 className="text-secondary">Price - ${props.price}</h4>
