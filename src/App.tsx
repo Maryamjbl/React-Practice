@@ -7,15 +7,14 @@
 // import ProductList from "./ProductList";
 // import CourseObject from "./CourseObject";
 // import UserInfo from "./UserInfo";
-
-import ProductForm from "./ProductForm";
-
+import EmployeeDirectory from "./EmployeeDirectory";
+// import ProductForm from "./ProductForm";
 // import ProductCard from "./ProductCard";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="m-3 text-center text-primary"> Product Form </h1>
+      <h1 className="m-3 text-center"> Employee App </h1>
       {/* <CourseBS></CourseBS> */}
       {/* <CourseList></CourseList> */}
       {/* <CourseObject></CourseObject>
@@ -35,7 +34,10 @@ function App() {
         price={199.99}
         features={["Heart rate monitoring", "Sleep tracking", "Water-resistant"]}
       /> */}
-      <ProductForm></ProductForm>
+      {/* <ProductForm></ProductForm> */}
+      <EmployeeDirectory></EmployeeDirectory>
+
+      
     </div>
   );
 }

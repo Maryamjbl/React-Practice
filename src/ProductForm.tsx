@@ -47,7 +47,7 @@ function ProductForm() {
       <div className="mt-3">
         <h3 className="text-success">Bill Summary</h3>
         <p>Product: {product}</p>
-        <p>Price: {price}</p>
+        <p>Price: {price}</p>  
         <p>Quantity: {quantity}</p>
         <p>Total: {total}</p>
       </div>
