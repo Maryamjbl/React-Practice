@@ -1,5 +1,4 @@
 import EmployeeCard from "./EmployeeCard";
-
 function EmployeeDirectory() {
   let employees = [
     {
@@ -14,6 +13,7 @@ function EmployeeDirectory() {
       department:"IT",
       salary: 7500,
     },
+    
     {
       name: "John",
       position: "Project Manager",

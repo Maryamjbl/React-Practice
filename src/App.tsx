@@ -7,9 +7,11 @@
 // import ProductList from "./ProductList";
 // import CourseObject from "./CourseObject";
 // import UserInfo from "./UserInfo";
-import EmployeeDirectory from "./EmployeeDirectory";
+// import EmployeeDirectory from "./EmployeeDirectory";
 // import ProductForm from "./ProductForm";
 // import ProductCard from "./ProductCard";
+
+import ProductCatalogue from "./ProuctCatalogue";
 
 function App() {
   return (
@@ -35,8 +37,10 @@ function App() {
         features={["Heart rate monitoring", "Sleep tracking", "Water-resistant"]}
       /> */}
       {/* <ProductForm></ProductForm> */}
-      <EmployeeDirectory></EmployeeDirectory>
+      {/* <EmployeeDirectory></EmployeeDirectory> */}
 
+      <ProductCatalogue></ProductCatalogue>
+     
       
     </div>
   );
