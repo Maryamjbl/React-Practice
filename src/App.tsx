@@ -11,7 +11,7 @@
 // import ProductForm from "./ProductForm";
 // import ProductCard from "./ProductCard";
 
-import ProductCatalogue from "./ProuctCatalogue";
+import ProductCatalogue from "./ProductCatalogue";
 
 function App() {
   return (
