@@ -16,7 +16,7 @@ import ProductCatalogue from "./ProuctCatalogue";
 function App() {
   return (
     <div className="App">
-      <h1 className="m-3 text-center"> Employee App </h1>
+      <h1 className="m-3 text-center">  </h1>
       {/* <CourseBS></CourseBS> */}
       {/* <CourseList></CourseList> */}
       {/* <CourseObject></CourseObject>
