@@ -2,38 +2,43 @@ import EmployeeCard from "./EmployeeCard";
 function EmployeeDirectory() {
   let employees = [
     {
-      name: "Aysha",
+      id: 101,
+      name: "Mohammed",
       position: "HR Manager",
       department: "HR",
       salary: 6000,
     },
     {
-      name: "Ali",
-      position: "head of IT",
-      department:"IT",
+      id: 102,
+      name: "Sarah",
+      position: "Software Engineer",
+      department: "Engineering",
       salary: 7500,
     },
-    
     {
+      id: 103,
       name: "John",
       position: "Project Manager",
       department: "IT",
       salary: 8000,
     },
     {
-      name: "Sara",
+      id: 104,
+      name: "Emily",
       position: "Marketing Director",
       department: "Marketing",
       salary: 7000,
     },
     {
-      name: "Ahmed",
+      id: 105,
+      name: "David",
       position: "Financial Analyst",
       department: "Finance",
       salary: 6500,
     },
     {
-      name: "Maria",
+      id: 106,
+      name: "Arif",
       position: "Financial Auditor",
       department: "Finance",
       salary: 8000,
@@ -42,7 +47,7 @@ function EmployeeDirectory() {
 
   return (
     <div className="container">
-      <h2 className="text-primary-emphasis text-center mb-4">List of Employees</h2>
+      <h2 className="text-warning text-center mb-4">List of Employees</h2>
       <div className="row g-4">
         {employees.map((emp) => (
           <div className="col-md-4">
@@ -51,7 +56,7 @@ function EmployeeDirectory() {
               position={emp.position}
               department={emp.department}
               salary={emp.salary}
-            />
+            ></EmployeeCard>
           </div>
         ))}
       </div>

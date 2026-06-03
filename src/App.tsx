@@ -17,6 +17,9 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import CourseCard from "./CourseCard";
+import UserList from "./UserList";
+import UserDetail from "./UserDetail";
+import PostList from "./PostList";
 
 function App() {
   return (
@@ -85,6 +88,16 @@ function App() {
                     Courses
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/posts">
+                    Posts
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/users">
+                    Users
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -97,6 +110,9 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/courses" element={<CourseCard />} />
+            <Route path="/users/:id" element={<UserDetail />} />
+            <Route path="/users" element={<UserList />} />
+            <Route path="/posts" element={<PostList />} />
           </Routes>
         </main>
       </div>
@@ -108,3 +124,4 @@ function App() {
 }
 
 export default App;
+
