@@ -10,9 +10,9 @@ type Post = {
 function PostList() {
   const [posts, setPosts] = useState<Post[]>([]);
 
-  let fetchPosts = async () => {
-    let response = await fetch("https://jsonplaceholder.typicode.com/posts");
-    let data = await response.json();
+  const fetchPosts = async () => {
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+    const data : Post[] = await response.json();
     setPosts(data);
   };
 
